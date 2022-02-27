@@ -1,0 +1,2263 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Catalogus medicamentorum cymicorum] or, The treasury of chymical medicaments being a catalogue of medicines carefully and exactly prepared / by John Casimir, German chymist &amp; physitian.</title>
+            <author>Casimir, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 43 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A78286</idno>
+            <idno type="STC">Wing C1212A</idno>
+            <idno type="STC">ESTC R173603</idno>
+            <idno type="EEBO-CITATION">45504395</idno>
+            <idno type="OCLC">ocm 45504395</idno>
+            <idno type="VID">171697</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A78286)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171697)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2587:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Catalogus medicamentorum cymicorum] or, The treasury of chymical medicaments being a catalogue of medicines carefully and exactly prepared / by John Casimir, German chymist &amp; physitian.</title>
+                  <author>Casimir, John.</author>
+               </titleStmt>
+               <extent>[2], 16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Bringhurst, for the author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: title page cropped, with some loss of text; title supplied by Wing.</note>
+                  <note>Reproduction of original in: British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Materia medica --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:171697:1" rendition="simple:additions"/>
+            <p>OR THE TREASURY OF CHYMICAL MEDICAMENTS, BEING A CATALOGUE OF Medicines carefully and exactly prepared BY JOHN CASIMIR, <hi>GERMAN</hi> CHYMIST &amp; PHYSITIAN.</p>
+            <p>IN WHICH ALSO The moſt predominant and reigning Diſeaſes and Diſtempers afflicting Humane Nature in this Age, are briefly hinted at; together with their Cure by appropriated and adapted Medicines, wherein the Author, (through the Bleſſing of God upon his Endeavours) hath been very Succeſsful: and thoſe Remedies which by long Practice and Experience, he hath found both ſafe and effectual in reſtoring languiſhing and afflicted Nature, he hath here publiſhed for the good of all.</p>
+            <p>The following Chymical Medicaments and Preparations may be had at the Author's Houſe</p>
+            <p>In <hi>Grace-Church-ſtreet, Nagshead-Court,</hi> at the Sign of the <hi>Three Golden Keys</hi> near <hi>Lumbard-ſtreet,</hi> where any may be furniſhed with what Quantities they pleaſe, eſpecially thoſe who make great Voyages, they being ſuch as will keep their Vertues throughout all Climes and parts of the Word, being proper for Prevention as well as Cure.</p>
+            <p>
+               <hi>London,</hi> Printed by <hi>John Bringhurſt,</hi> for the Author, 1682.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:171697:2"/>
+            <pb facs="tcp:171697:2"/>
+            <head>TO ALL INGENIOUS WELL-WISHERS TO THE PRACTICK-PART OF PHYSICK.</head>
+            <p>AS the Diſeaſes and Diſtempers incident to Humane Nature are many and grievous, ſuch is the favour of God granted unto us by the indulging hand of his Providence, that he hath largely contri<g ref="char:EOLhyphen"/>buted to its comfort herein, whereby we are furniſhed with Means or Remedies, with his Bleſſing to remove the ſame. And he hath alſo decreed, bounteous Nature ſhould not be wanting to us therein. Wherefore what God hath communicated unto us in this Science, either by infor<g ref="char:EOLhyphen"/>mation from Himſelf, or by Experience in the Practick Part of Phyſick, I hereby publiſh for the benefit of the Sick the following Medicaments, being alſo prepared with that Care which Art and Nature do require.</p>
+            <div type="catalogue">
+               <p>
+                  <table>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Catalogus Medicamentorum Chymicorum.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>A Catalogue of Chymical Medicaments.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Aquae Medicinales.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Medicinal Waters.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>AQua Oplithalmica</cell>
+                        <cell>
+                           <hi>EYe Water</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Reginae Hungariae</cell>
+                        <cell>
+                           <hi>Queen of</hi> Hungaries <hi>Water</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Diaphoretica</cell>
+                        <cell>
+                           <hi>Sudorifick Water</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Febrifuga</cell>
+                        <cell>
+                           <hi>Water againſt Agues</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Epidemica</cell>
+                        <cell>
+                           <hi>Surfeit Water</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Expulſiva</cell>
+                        <cell>
+                           <hi>Expulſive Water</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Acetum Antimonii</cell>
+                        <cell>
+                           <hi>Vinegar of Antimony</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Gas Sulphuris</cell>
+                        <cell>Ens primum</cell>
+                     </row>
+                     <row>
+                        <cell>Aqua Nephritica.</cell>
+                        <cell>
+                           <hi>Nephritick Water.</hi>
+                        </cell>
+                     </row>
+                     <pb facs="tcp:171697:3"/>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Spiritus.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Spirits.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Salis</cell>
+                        <cell>
+                           <hi>Spirit of Salt</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Vini Hiſpanici</cell>
+                        <cell>
+                           <hi>Spirit of Sack</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Salis dulcis</cell>
+                        <cell>
+                           <hi>Spirit of Salt dulcified</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Nitri dulcis</cell>
+                        <cell>
+                           <hi>Spirit of Nitre dulcified</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Salis Armoniaci</cell>
+                        <cell>
+                           <hi>Spirit of Salt Armoniack</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Vitrioli dulcis</cell>
+                        <cell>
+                           <hi>Spirit of Vitriol dulcified</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Cornu Cervi</cell>
+                        <cell>
+                           <hi>Spirit of Harts-horn</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Balſamicus</cell>
+                        <cell>
+                           <hi>Balſamick Spirit</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Salviae</cell>
+                        <cell>
+                           <hi>Spirit of Sage</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus vini Tartariſatus</cell>
+                        <cell>
+                           <hi>Spirit of Wine Tartarized</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Cochleareae</cell>
+                        <cell>
+                           <hi>Spirit of Scurvy-graſs</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Mellis</cell>
+                        <cell>
+                           <hi>Spirit of Honey</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Glycyrhizae.</cell>
+                        <cell>
+                           <hi>Spirit of Licoriſh</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Spiritus Compoſiti</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Drops.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Antepilepticus</cell>
+                        <cell>
+                           <hi>Epileptick Drops</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Antinephriticus</cell>
+                        <cell>
+                           <hi>Drops againſt the ſtone</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Adjuvans</cell>
+                        <cell>
+                           <hi>Helping Drops</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Antiparilyticus</cell>
+                        <cell>
+                           <hi>Drops againſt the Palſey</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Laudanum Liquidum</cell>
+                        <cell>
+                           <hi>Helmon'ts Drops</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Spiritus Cephalicus</cell>
+                        <cell>
+                           <hi>Drops to ſtrengthen the Head</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Circulatum Medium</cell>
+                        <cell>
+                           <hi>Middle Circulate</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Remedium Princepis.</cell>
+                        <cell>
+                           <hi>Princes Drops.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Tincturae.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Tinctures.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Cordialis</cell>
+                        <cell>
+                           <hi>Cordial Tincture</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Lilii</cell>
+                        <cell>
+                           <hi>Tincture of Lilly</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Solis</cell>
+                        <cell>
+                           <hi>Tincture of Gold</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Digeſtiva</cell>
+                        <cell>
+                           <hi>Digeſtive Tincture</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Corallorum</cell>
+                        <cell>
+                           <hi>Tincture of Coralls</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Anodyna</cell>
+                        <cell>
+                           <hi>Pain-ſtilling Tincture</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Tartari</cell>
+                        <cell>
+                           <hi>Tincture of Tartar</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Regalis</cell>
+                        <cell>
+                           <hi>Royal Tincture</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Antimonii</cell>
+                        <cell>
+                           <hi>Tincture of Antimony</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Aurata</cell>
+                        <cell>
+                           <hi>Golden Tincture</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Succini</cell>
+                        <cell>
+                           <hi>Tincture of Amber</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tinctura Balſamica.</cell>
+                        <cell>
+                           <hi>Balſamick Tincture.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Elixiaria.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Elixirs.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Cordiale</cell>
+                        <cell>
+                           <hi>Cordial Elixir</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Proprietatis</cell>
+                        <cell>
+                           <hi>Elixir of Propriety</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Helmontii volatile</cell>
+                        <cell>
+                           <hi>Elixir Volatile of Helmont</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Sulphuris Vitrioli</cell>
+                        <cell>
+                           <hi>Elixir of the ſulphur of vitriol</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Diaphoreticum</cell>
+                        <cell>
+                           <hi>Sweat-cauſing Elixir</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Cochleareae</cell>
+                        <cell>
+                           <hi>Elixir of Scurvygraſs</hi>
+                        </cell>
+                     </row>
+                     <pb n="3" facs="tcp:171697:3"/>
+                     <row>
+                        <cell>Elixir Juniperinum</cell>
+                        <cell>
+                           <hi>Elixir of Juniper berries</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Aurantiorum</cell>
+                        <cell>
+                           <hi>Elixir of Oranges</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Citriorum</cell>
+                        <cell>
+                           <hi>Elixir of Citrons</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Subtilitatis</cell>
+                        <cell>
+                           <hi>Elixir of Subtlety</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Salutis</cell>
+                        <cell>
+                           <hi>Elixir of Health</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir Lavendulae</cell>
+                        <cell>
+                           <hi>Elixer of Lavender</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Elixir vitae</cell>
+                        <cell>
+                           <hi>Elixer of Life.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Eſſentiae.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Eſſences.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Olivarum</cell>
+                        <cell>
+                           <hi>Eſſence of Olives</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Cornu-cervi</cell>
+                        <cell>
+                           <hi>Eſſence of Harts-horn</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Stomachica</cell>
+                        <cell>
+                           <hi>Stomach Eſſence</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Eboris</cell>
+                        <cell>
+                           <hi>Eſſence of Ivory</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Mannae</cell>
+                        <cell>
+                           <hi>Eſſence of Manna</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Meliſſae</cell>
+                        <cell>
+                           <hi>Eſſence of Baume</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Menthae</cell>
+                        <cell>
+                           <hi>Eſſence of Mint</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Majoranae</cell>
+                        <cell>
+                           <hi>Eſſence of Marjerom</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Thymi</cell>
+                        <cell>
+                           <hi>Eſſence of Time</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Salviae</cell>
+                        <cell>
+                           <hi>Eſſence of Sage</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Chamaemeli</cell>
+                        <cell>
+                           <hi>Eſſence of Chamomil</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Helenii</cell>
+                        <cell>
+                           <hi>Eſſence of Elicampane</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Croci</cell>
+                        <cell>
+                           <hi>Eſſence of Saffron</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Eſſentia Mellis</cell>
+                        <cell>
+                           <hi>Eſſence of Honey.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Species.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Powders.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pulvis Bezoarticus</cell>
+                        <cell>
+                           <hi>Bezoartick Powder</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Bezoardicum Minerale</cell>
+                        <cell>
+                           <hi>Mineral Bezoar</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Bezoardicum Metallicum</cell>
+                        <cell>
+                           <hi>Metalline Bezoar</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Aurum vitae</cell>
+                        <cell>
+                           <hi>Gold of Life</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Antimonium Diaphoreticum</cell>
+                        <cell>
+                           <hi>Antimony Cauſing-ſweat</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Mercurius Diaphoreticus</cell>
+                        <cell>
+                           <hi>Mercury Cauſing-ſweat</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Species Salutaris</cell>
+                        <cell>
+                           <hi>Species Powder</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pulvis Reſolutivus</cell>
+                        <cell>
+                           <hi>Reſolving Powder</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pulvis Lithontripticus</cell>
+                        <cell>
+                           <hi>Powder againſt the Stone</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pulvis ad Dentes</cell>
+                        <cell>
+                           <hi>Powder to faſten and whiten Teeth</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Ens Veneris</cell>
+                        <cell>
+                           <hi>Ens of Venus</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Pilulae.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Pills.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Polychreſtae</cell>
+                        <cell>
+                           <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Regales</cell>
+                        <cell>
+                           <hi>Royal Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Lunares</cell>
+                        <cell>
+                           <hi>Lunar Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Amicae</cell>
+                        <cell>
+                           <hi>Sweetning Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Speciei (ſalutaris)</cell>
+                        <cell>
+                           <hi>Species Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Cephalicae</cell>
+                        <cell>
+                           <hi>Head Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Roborantes</cell>
+                        <cell>
+                           <hi>Strengthening Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Laudani Paracelſi</cell>
+                        <cell>
+                           <hi>Pills of Laudanum Paracelſis</hi>
+                        </cell>
+                     </row>
+                     <pb n="4" facs="tcp:171697:4"/>
+                     <row>
+                        <cell>Pilulae Antipodagricae</cell>
+                        <cell>
+                           <hi>Pills againſt the Gout</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Pectorales</cell>
+                        <cell>
+                           <hi>Pectorall Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Galliae</cell>
+                        <cell>
+                           <hi>Gallican Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Francofortenſes</cell>
+                        <cell>
+                           <hi>Francfort Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Starkii</cell>
+                        <cell>
+                           <hi>Matthews Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Delaunei</cell>
+                        <cell>
+                           <hi>De Laun's Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Pilulae Solaris</cell>
+                        <cell>
+                           <hi>Solar Pills</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Grana Angelica.</cell>
+                        <cell>
+                           <hi>Dr. Anderſon's Pills.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Extracta.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Extracts.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extractum Febrifugum</cell>
+                        <cell>
+                           <hi>Extract againſt Agues</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Hydropicum</cell>
+                        <cell>
+                           <hi>Extract againſt Dropſies</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Animale</cell>
+                        <cell>
+                           <hi>Animal Extract</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Vegetabile</cell>
+                        <cell>
+                           <hi>Vegetable Extract</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Orvietanum</cell>
+                        <cell>
+                           <hi>Extract of Orvietan</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Specificum</cell>
+                        <cell>
+                           <hi>Specifick Extract</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Extract. Catholicum.</cell>
+                        <cell>
+                           <hi>
+                              <g ref="char:V">Ʋ</g>niverſal Extract.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Olea.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Oyls.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Succini</cell>
+                        <cell>
+                           <hi>Oyl of Amber</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Maſtichis</cell>
+                        <cell>
+                           <hi>Oyl of Maſtick</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Cerae</cell>
+                        <cell>
+                           <hi>Oyl of Wax</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Thuris</cell>
+                        <cell>
+                           <hi>Oyl of Frankincenſe</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Caryophyllorum</cell>
+                        <cell>
+                           <hi>Oyl of Cloves</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Camphorae</cell>
+                        <cell>
+                           <hi>Oyl of Camphire</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Abſinthii</cell>
+                        <cell>
+                           <hi>Oyl of Wormwood</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Aniſi</cell>
+                        <cell>
+                           <hi>Oyl of Anis-ſeeds</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Spicae Nardi</cell>
+                        <cell>
+                           <hi>Oyl of Spikenard</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Butleri</cell>
+                        <cell>
+                           <hi>Butler's Oyl</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Sulphuris per Camp.</cell>
+                        <cell>
+                           <hi>Oyl of Sulphur</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Oleum Vitrioli.</cell>
+                        <cell>
+                           <hi>Oyl of Vitriol.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Salia.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Salts.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Tartari</cell>
+                        <cell>
+                           <hi>Salt of Tartar</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Sennerti</cell>
+                        <cell>
+                           <hi>Salt of Sennertus</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Martis</cell>
+                        <cell>
+                           <hi>Salt of Mars</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Saturni</cell>
+                        <cell>
+                           <hi>Salt of Saturn</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Antimonii</cell>
+                        <cell>
+                           <hi>Salt of Antimony</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal Succini</cell>
+                        <cell>
+                           <hi>Salt of Amber</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal volatile Oleoſum Sylvii</cell>
+                        <cell>
+                           <hi>Sylvius his Salt</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Sal ſeu Lapis ſalutis.</cell>
+                        <cell>
+                           <hi>Salt of Health.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Tabellae.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Loz<gap reason="illegible" resp="#MURP" extent="2 letters">
+                                 <desc>••</desc>
+                              </gap>ges.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tabellae Cordiales</cell>
+                        <cell>
+                           <hi>Cordial Lozenges</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tabellae Pectorales</cell>
+                        <cell>
+                           <hi>Pectoral Lozenges</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Tabellae Aperitivae.</cell>
+                        <cell>
+                           <hi>Cleanſing and opening Lozenges.</hi>
+                        </cell>
+                     </row>
+                     <pb n="5" facs="tcp:171697:4"/>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Balſami.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Balſoms.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Sulphuris aniſatus</cell>
+                        <cell>
+                           <hi>Balſom of Sulphur-aniſate</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Sulphuris communis</cell>
+                        <cell>
+                           <hi>Balſom of common Sulphur</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Sulphuris Vitrioli</cell>
+                        <cell>
+                           <hi>Balſom of Sulphur of Vitriol</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Sulphuris Antimonii</cell>
+                        <cell>
+                           <hi>Balſom of Sulphur of Antimony</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Succini</cell>
+                        <cell>
+                           <hi>Balſom of Amber</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamus Animalis</cell>
+                        <cell>
+                           <hi>Animal Balſom</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Balſamum Rubrum.</cell>
+                        <cell>
+                           <hi>Lucatellus Balſom.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Ungenta.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Oyntments.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Ungentum Martis</cell>
+                        <cell>
+                           <hi>Oyntment of Mars</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Unguentum Flavum</cell>
+                        <cell>
+                           <hi>Yellow Oyntment</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Unguentum Coeruleum</cell>
+                        <cell>
+                           <hi>Blew Oyntment</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Unguentum Primum</cell>
+                        <cell>
+                           <hi>Firſt Oyntment</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Unguentum Secundum</cell>
+                        <cell>
+                           <hi>Second Oyutment</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Linimentum Vitrioli</cell>
+                        <cell>
+                           <hi>Liniment of Vitriol</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Unguent. Diaphreticum</cell>
+                        <cell>
+                           <hi>Diaphretick Oyntment.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(text-align:center;)" role="label">Emplaſtra.</cell>
+                        <cell rend="CSS(text-align:center;)" role="label">
+                           <hi>Plaiſters.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Emplaſtrum Aureum</cell>
+                        <cell>
+                           <hi>Golden or Stitch Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Magneticum</cell>
+                        <cell>
+                           <hi>Magnetick Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Bezoarticum</cell>
+                        <cell>
+                           <hi>Bezoartick Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Rubrum</cell>
+                        <cell>
+                           <hi>Red Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Nigrum</cell>
+                        <cell>
+                           <hi>Black Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Tertium</cell>
+                        <cell>
+                           <hi>Third Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Febrifugum</cell>
+                        <cell>
+                           <hi>Ague Plaiſter</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Empl. Wurtzium.</cell>
+                        <cell>
+                           <hi>Felix Wurtz's Plaiſter.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell rend="CSS(margin:auto;text-align:center;)">Aurum Potabile.</cell>
+                        <cell rend="CSS(margin:auto;text-align:center;)">
+                           <hi>Potable Gold.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>This Choice and Noble Preparation is added here as a Seal to all the reſt as being a great help for renewing and reſtoring of Languiſhing Nature.</p>
+            </div>
+            <div type="instructions">
+               <p>AS the preceeding Catalogue informs of ſome ſublime, and other the moſt uſeful Chymical Preparations; be pleaſed to receive this further information concerning ſome eminent and particular Cures, whereby the Diſtempers following may be deprived of that advantage they otherwiſe might arrive at.</p>
+               <div n="1" type="part">
+                  <head>
+                     <hi>I.</hi> Of the Scurvy.</head>
+                  <p>The Eminently Afflicting Diſtemper of this Land radically con<g ref="char:EOLhyphen"/>ſidered, the Learned acquieſce herein, that it is an ill habit of the body, or a diſproportion of Humours, commonly called the Scarvy,
+<pb facs="tcp:171697:5"/>whoſe hoſtile quality aſſaults nothing leſs than the pureſt part of the blood, whence a putrefaction thereof enſues, and conſequently an Abridgement of Life, even in Infancy, if a timely Remedy be not found. Wherefore in any Sex or Age or at any ſeaſon of the Year, in <hi>England, Holland,</hi> or <hi>America,</hi> let our Anti-ſcorbutick Medicins be known, and eſteemed as true Specificks, which with much eaſe pre<g ref="char:EOLhyphen"/>ſerve from, and Cure the Scurvy.</p>
+                  <div type="section">
+                     <head>The Symptoms of the Scurvy in the Phlegmatick and Melancholick are</head>
+                     <p>Ill digeſtion of food, extream cold and dulneſs of head, ſhortneſs and difficulty of breathing, weakneſs in the back, pain in the Limbs, more eſpecially in the knees and joynts of the Arms, ſwelling in the Legs and Stomach, botches and breakings forth of the Body, with a heavineſs of the whole, and great aptneſs to ſleep.</p>
+                  </div>
+                  <div type="section">
+                     <head>For Cure of theſe, <g ref="char:V">Ʋ</g>ſe</head>
+                     <p>
+                        <table>
+                           <row>
+                              <cell>Spiritus Cochleareae</cell>
+                              <cell>
+                                 <hi>Spirit of Scurvygraſs</hi>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>Pilulae Regales</cell>
+                              <cell>
+                                 <hi>Royal Pills</hi>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>Eſſentia Stomachica</cell>
+                              <cell>
+                                 <hi>Stomach Eſſence</hi>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>Pill. Polychreſt.</cell>
+                              <cell>
+                                 <hi>Pills of great <g ref="char:V">Ʋ</g>ſe.</hi>
+                              </cell>
+                           </row>
+                        </table>
+                     </p>
+                  </div>
+                  <div type="section">
+                     <head>Symptoms of the Scurvy in the Sanguin and Cholerick.</head>
+                     <p>Great Drought, and inveterate Head-ach, pains in the ſides, in<g ref="char:EOLhyphen"/>flammations, eſpecially in the Legs and Face, dizzineſs in the Head, and great unaptneſs to ſleep, alſo impoſtumes, and riſings in ſeveral parts of the body, which are Cured with</p>
+                     <p>
+                        <table>
+                           <row>
+                              <cell>Elixir Cochleareae</cell>
+                              <cell>
+                                 <hi>Elixir of Scurvygraſs</hi>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>Pilulae Regales</cell>
+                              <cell>
+                                 <hi>Royal Pills</hi>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>Spiritus Adjuvans.</cell>
+                              <cell>
+                                 <hi>Helping Drops.</hi>
+                              </cell>
+                           </row>
+                        </table>
+                     </p>
+                     <p>Deſcending to particulars we begin with the Head, and Medicines conducing to the Cure thereof.</p>
+                  </div>
+               </div>
+               <div n="2" type="part">
+                  <head>
+                     <hi>II.</hi> Diſeaſes of the Head.</head>
+                  <p>The Head is a noble yet tender part of the Body, and is often weakned by Diſtempers incident thereunto, which are ſufficiently known to the Patient, by the pain and ſtupidity they expoſe him to, and to us by Symptoms, Names or Terms appropriate, as <hi>Im<g ref="char:EOLhyphen"/>poſtumes,
+<pb n="7" facs="tcp:171697:5"/>Convulſions, Apoplexies, Vertigo, Megrim, Lethargy, Falling Sick<g ref="char:EOLhyphen"/>neſs, Palſy,</hi> &amp;c. In order to the Curing whereof we have ſucceſsfully uſed and do recommend</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Elixir Sulphuris Vitrioli</cell>
+                           <cell>
+                              <hi>Elixir with the Sulphur Vitriol</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spiritus Cephalicus</cell>
+                           <cell>
+                              <hi>Drops to ſtrengthen the Head</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aqua Ophthalmica</cell>
+                           <cell>
+                              <hi>Eye Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Francofortenſes.</cell>
+                           <cell>
+                              <hi>Francfort Pills.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="3" type="part">
+                  <head>
+                     <hi>III.</hi> Diſeaſes afflicting the Neck and Throat.</head>
+                  <p>Some are afflicted with <hi>Inflammations,</hi> whence ariſe <hi>Cancers</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>lcers,</hi> others have hard tumors and ſwellings, called <hi>Scrophulae,</hi> or the <hi>Kings-Evil,</hi> which fix themſelves there as much as in any part of the Body, and as much as moſt Enemies to Health.</p>
+                  <p>For the Cure of which we recommend ſuch Medicinal Preparati<g ref="char:EOLhyphen"/>ons as the nature of the grief requires wholly to extinguiſh both the Diſeaſes and its Symptoms, as are</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Piluae Polychreſtae</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Caeruleae</cell>
+                           <cell>
+                              <hi>Blew Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pulvis Reſolutivus</cell>
+                           <cell>
+                              <hi>Reſolving Powder</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura digeſtiva</cell>
+                           <cell>
+                              <hi>Digeſtive Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Cochleareae</cell>
+                           <cell>
+                              <hi>Elixir of Scurvy-graſs</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Linimentum Vitrioli.</cell>
+                           <cell>
+                              <hi>Liniment of Vitriol.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="4" type="part">
+                  <head>
+                     <hi>IV.</hi> For the Stomach.</head>
+                  <p>A weak or foul Stomach if the humors annoying it be not eva<g ref="char:EOLhyphen"/>cuated or corrected, it not only is diſabled to convert food into good nouriſhment, but on the contrary corrupts what ſhould nouriſh, and turns it into an unprofitable maſs, whereby the Body ſuffers, and many diſtempers follow, which may be prevented or remedied by the Uſe of ſuch Medicines as are particularly adapted to remove the evil, and ſettle or eſtabliſh the good order thereof, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Species (Salutaris)</cell>
+                           <cell>
+                              <hi>Species Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pills Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Eſſentia Stomachica</cell>
+                           <cell>
+                              <hi>Stomach Eſſence</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aqua Diaphoretica</cell>
+                           <cell>
+                              <hi>Sudorifick Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Acetum Antimonii</cell>
+                           <cell>
+                              <hi>Vinegar of Antimony</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Gas Sulphuris.</cell>
+                           <cell>
+                              <hi>Ens Primum.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="5" type="part">
+                  <pb n="8" facs="tcp:171697:6"/>
+                  <head>
+                     <hi>V.</hi> For the Breaſt and Lungs.</head>
+                  <p>The diſtempers and afflictions of which are inveterate Coughs, Catarrhs, Aſtmahs, Conſumptions, cauſed by a flux of Humors or rheumatick diſtillations on the Lungs; attended with ſhortneſs of breath, want of appetite, and many other infirmities, which ſo im<g ref="char:EOLhyphen"/>paireth the Body, that no part thereof enjoyeth the function, nature hath ordained it for: to cure which we commend ſuch Medicines as are truly renovating and effectually reſtoring the Patients with eaſe, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Balſam. Sulph. Communis</cell>
+                           <cell>
+                              <hi>Balſom of Sulphur, common</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extractum Sulphuris</cell>
+                           <cell>
+                              <hi>Extract of Sulphur</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae pectorales</cell>
+                           <cell>
+                              <hi>Pectoral Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spiritus Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Acetum Antimonii</cell>
+                           <cell>
+                              <hi>Vinegar of Antimony</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Gas Sulphuris</cell>
+                           <cell>
+                              <hi>Ens primum</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Remedium Principis.</cell>
+                           <cell>
+                              <hi>Princes Drops.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="6" type="part">
+                  <head>
+                     <hi>VI.</hi> For the Heart.</head>
+                  <p>The profoundeſt Students in Nature, and Spagyrical Science in all Ages, eſteem'd it their duty to regard the Heart as the ſeat of Life, nor would I appear to have any other than a venerable eſteem of this Aphoriſm, and to tender both the Fabrick and Life of Man, as the workmanſhip and delight of the great Creator. In order whereunto as it hath pleaſed him to place me, where I might be ſerviceable to them, ſo have I made it my ſtudy to be faithful herein, and by the ſame hand have been conveyed unto me ſuch ſelect cordial Medicines, as are neceſſary to fortifie the Heart, and to withſtand or overcome the afflicting pains of it; ſuch as are</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Tinctura Lilii</cell>
+                           <cell>
+                              <hi>Ticture of Lilly</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Vitae</cell>
+                           <cell>
+                              <hi>Elixir of Life</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Eſſentia Croci</cell>
+                           <cell>
+                              <hi>Eſſence of Saffron</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spiritus adjuvans</cell>
+                           <cell>
+                              <hi>Helping Spirit</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura Solis</cell>
+                           <cell>
+                              <hi>Tincture of Gold</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile.</cell>
+                           <cell>
+                              <hi>Potable God.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="7" type="part">
+                  <pb n="9" facs="tcp:171697:6"/>
+                  <head>
+                     <hi>VII.</hi> Obſtructions of the Liver and weakneſs of the Spleen.</head>
+                  <p>The Liver being the fountain or ſpring of the little Rivers or Veins of the <hi>Microcoſme,</hi> if this be obſtructed or hindred in its office, the other parts of the body languiſh and complain thereof, whence dangerous diſeaſes are threatned. The Spleen alſo when it is beſet and overcharged with ill juyces commonly called humors, it is afflicted and ſtirs up the paſſion thereof, afflicts the vitals, oppreſſeth the Spirits, and fiills the Body with vapors and melancholy fits, and annoys the head with dizzineſs and other afflictions, which are ſo many, that for brevity ſake we omit them: however we have Medi<g ref="char:EOLhyphen"/>cines if not <hi>Arcanums,</hi> that powerfully tend to reconcile the diſcord in Nature, which ariſeth on that account, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Lunares</cell>
+                           <cell>
+                              <hi>Lunar Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixer Cochleareae</cell>
+                           <cell>
+                              <hi>Elixir of Scurvy-graſs</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura Tartari</cell>
+                           <cell>
+                              <hi>Tincture of Tartar</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura Aurata</cell>
+                           <cell>
+                              <hi>Golden Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Sal Martis.</cell>
+                           <cell>
+                              <hi>Salt of Mars.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="8" type="part">
+                  <head>
+                     <hi>VIII.</hi> For the Bowels and Belly.</head>
+                  <p>Theſe parts of the Body are alſo often afflicted, as with Gripings, Excoriations, Bloody-flux, Colick, Iliack-paſſion, and other violent paint, for which there are ſpecial Remedies found to reſtore them (with Gods Bleſſing) to their natural and ordained eaſe, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Bezoardicum Metallicum</cell>
+                           <cell>
+                              <hi>Metalline Bezoar</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Species Salutaris</cell>
+                           <cell>
+                              <hi>Species Powder</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Salutis</cell>
+                           <cell>
+                              <hi>Elixir of Health</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Juniperinum</cell>
+                           <cell>
+                              <hi>Elixir of Juniper-berries</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile</cell>
+                           <cell>
+                              <hi>Potable Gold</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regalis</cell>
+                           <cell>
+                              <hi>Pills Royal.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="9" type="part">
+                  <head>
+                     <hi>IX.</hi> For the Stone, Gravel of the Kidneys and Stoppage of <g ref="char:V">Ʋ</g>rine, alſo weakneſs of the Back.</head>
+                  <p>The Stone and Gravel by their extremity of pain, have expoſed many Patients to great Travail and Expence to ſeek a Remedy, and when they fall into the hand of ſuch as attempt the Cure by way of
+<pb n="10" facs="tcp:171697:7"/>cutting, it often miſſeth its deſired end, to the Patients grief, and ſadning of their Friends. But the Medicines we give are not only ſafe, but effectual in diſſolving or waſting gradually the hardned mat<g ref="char:EOLhyphen"/>ter, to the Comfort of the Patient, as may be experienced in the following Medicines.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Spiritus Nitri dulcis</cell>
+                           <cell>
+                              <hi>Spirit of Nitre dulcified</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pulvis Lithontripticus</cell>
+                           <cell>
+                              <hi>Stone Powder</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Salutis</cell>
+                           <cell>
+                              <hi>Elixir of Health</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Sal Succini</cell>
+                           <cell>
+                              <hi>Salt of Amber</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aqua Nephritica.</cell>
+                           <cell>
+                              <hi>Nephritick Water.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="10" type="part">
+                  <head>
+                     <hi>X.</hi> For the Gout and Sciatica.</head>
+                  <p>The Gout is attended with pains ſo violent, that thoſe that feel them think it impoſſible to expreſs the ſenſe thereof, to ſpeak nothing of the long continuance of the ſame with ſome, which at laſt uſhers them to the Shades, yet for this rooted greif is alſo a Balm afforded, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Tinctura Digeſtiva</cell>
+                           <cell>
+                              <hi>Digeſtive Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aqua Diaphoretica</cell>
+                           <cell>
+                              <hi>Sudorifick Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Antipodagricae</cell>
+                           <cell>
+                              <hi>Gout Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pil. Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Balſ. Animalis</cell>
+                           <cell>
+                              <hi>Animal Balſom</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Ol. Butleri.</cell>
+                           <cell>Butler<hi>'s Oyle.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="11" type="part">
+                  <head>
+                     <hi>XI.</hi> Surfeits.</head>
+                  <p>Surfeits either of heat or cold, eating or drinking any thing noxious to the Stomach, are incident to moſt Complexions and Ages, which often bring the ſtrongeſt to that weakneſs, which terminates in the Grave. In this cauſe, without any offence to any, we are furniſhed with ſuch Remedies as do recover with pleaſure and eaſe. <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Elixir Vitae</cell>
+                           <cell>
+                              <hi>Elixir of Life</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pil. Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe.</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Pills Royal</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Eſſentia Stomachica</cell>
+                           <cell>
+                              <hi>Stomach Eſſence</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Species Salutaris.</cell>
+                           <cell>
+                              <hi>Species Powder.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="12" type="part">
+                  <head>
+                     <hi>XII.</hi> Impoſtumes and Pleuriſies.</head>
+                  <p>Impoſtumes proceed from an indiſpoſition of the blood, and thereby become Chronical, or from accident and then they are acute, as in the Pleureſie, which often aſſaults the Life with ſuch violence, as
+<pb n="11" facs="tcp:171697:7"/>puts the Patient in danger of a ſpeedy death, to prevent which we recommend</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Spiritus Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pil. Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Unguentum Diaphoreticum</cell>
+                           <cell>
+                              <hi>Diaphoretick Oyntment</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Emplaſtrum Aureum</cell>
+                           <cell>
+                              <hi>Golden or Stitch Plaiſter.</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Specif. Digeſtiv. cum Aq. Regin. Hung. Tinctura Digeſtiva</cell>
+                           <cell>
+                              <hi>Digeſtive Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aqua Regin. Hungariae.</cell>
+                           <cell>
+                              <hi>Queen of Hungaries water.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="13" type="part">
+                  <head>
+                     <hi>XIII.</hi> Feavers and Small Pox.</head>
+                  <p>Feavers are no leſs than a paſſion of the blood, which hath often boldly challenged the Phyſitian, by afflicting his Patient, to allay the fury and rage thereof. In this caſe we adviſe the region of the Sto<g ref="char:EOLhyphen"/>mach to be anointed with our Diaphoretick Balſom, then take</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Spirit. Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pulvis Bezoardicus</cell>
+                           <cell>
+                              <hi>Bezoartick Powder</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Circulatum Medium.</cell>
+                           <cell>
+                              <hi>Middle Circulate.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="14" type="part">
+                  <head>
+                     <hi>XIV.</hi> Small-Pox.</head>
+                  <p>When the Small Pox are attended with a kind of Malignant Fea<g ref="char:EOLhyphen"/>ver, be the Patient young or old uſe the Diaphoretick Balſom to the Stomack, as alſo to the Reins of the Back, and the ſide too, in caſe there be any pain there, which will ſoon procure eaſe and bring out the Small Pox, which being out, and any one of the following Me<g ref="char:EOLhyphen"/>dicines being adminiſtred, the Sick will find the benefit, and the Ob<g ref="char:EOLhyphen"/>ſerver ſatisfied.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pil. Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spiritus Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura Solis</cell>
+                           <cell>
+                              <hi>Tincture of Gold</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile.</cell>
+                           <cell>
+                              <hi>Potable Gold.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="15" type="part">
+                  <head>
+                     <hi>XV.</hi> Tertian or quartan Agues.</head>
+                  <p>The Cauſe of Agues is in Man, it being a Creation of his own, a Chaos, made up of paſſion and fear, by which a matter is contracted, into which a particular ſpirit enters, of a violent nature, by the con<g ref="char:EOLhyphen"/>tinuance of which other diſeaſes are contracted according to the habit of the body, which daily grows weaker, becauſe of the continual aſſaults of Life, which at laſt unwillingly yields to leave its habita<g ref="char:EOLhyphen"/>tion:
+<pb n="12" facs="tcp:171697:8"/>to prevent which the vital ſpirit is to be aſſiſted, and the acci<g ref="char:EOLhyphen"/>dents removed by ſuch experienced Medicins, to a perfection of the Cure, which hath been often performed in old and young, both Summer and Winter: ſuch are</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pil. Lunares</cell>
+                           <cell>
+                              <hi>Lunar Pilln</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pil. Polychreſtae</cell>
+                           <cell>
+                              <hi>Pills of great uſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aq. Febrifuga</cell>
+                           <cell>
+                              <hi>Water againſt Agues</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Bezoard. Minerale</cell>
+                           <cell>
+                              <hi>Mineral Bezoar</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pil. Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Emplaſt. Febrifugum</cell>
+                           <cell>
+                              <hi>Ague Plaiſter</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Diaphoreticum.</cell>
+                           <cell>
+                              <hi>Sweat-cauſing Elixir.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="16" type="part">
+                  <head>
+                     <hi>XVI.</hi> Weakneſs of the Back.</head>
+                  <p>By reaſon of relaxation or fluxes, and other griefs, is the back often weakned, and weakneſs in that part of the Body is an inlet to many diſtempers, to prevent and reſtore which, we direct Medicines proper and effectual for the curing thereof, provided the Patient take firſt for three or four days after another of Antiſcorbutick Pills, and then</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Roborantes</cell>
+                           <cell>
+                              <hi>Strengthening Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great uſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Specificum.</cell>
+                           <cell>
+                              <hi>Specifick Extract.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="17" type="part">
+                  <head>
+                     <hi>XVII.</hi> For the Dropſie.</head>
+                  <p>The Dropſie is a Diſtemper known to reduce the eſteemed and worthy Structure of Human Nature into an unprofitable Maſs, favou<g ref="char:EOLhyphen"/>ring neither the corpulent nor the ſlender. But our deſign here be<g ref="char:EOLhyphen"/>ing chiefly to give a Catalogue of Medicines prepared, and not ſo much a Treatiſe of the Cauſe of Diſeaſes, our omiſſion thereof will be excuſable. Yet this we ſay, whilſt the Liver is obſtructed, the Reins defective, the Kidneys waſting, and weakneſs predominant, the event inevitably follows. But the means ordained for the Cure being carefully prepared, hath not returned without the deſired Succeſs, being in time carefully adminiſtred, ſuch Medicaments are</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Lunares</cell>
+                           <cell>
+                              <hi>Lunar Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinct. Cordialis</cell>
+                           <cell>
+                              <hi>Cordial Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Vitae</cell>
+                           <cell>
+                              <hi>Elixir of Life</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Salutis</cell>
+                           <cell>
+                              <hi>Elixir of Health</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Hydrop.</cell>
+                           <cell>
+                              <hi>Extract againſt Dropſies</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile.</cell>
+                           <cell>
+                              <hi>Potable Gold.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="18" type="part">
+                  <pb n="13" facs="tcp:171697:8"/>
+                  <head>
+                     <hi>XVIII.</hi> For the Palſie.</head>
+                  <p>The Palſie afflicts not only the Head, but taketh alſo poſſeſſion of other parts, to the debilitating and making uſeleſs, part of, if not the whole Body, if ſeaſonable adminiſtrations of reſtorative, vivifying and ſtrengthening Medicines be not procured, for the preventing and ſpeedy Cure of which, we recommend theſe following Medicines, by which many with the bleſſing of God have been reſtored to the acti<g ref="char:EOLhyphen"/>vity and uſe of their Limbs.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Lunares</cell>
+                           <cell>
+                              <hi>Lunar Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Lavendulae</cell>
+                           <cell>
+                              <hi>Elixir of Lavender</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spiritus Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile.</cell>
+                           <cell>
+                              <hi>Potable Gold.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="19" type="part">
+                  <head>
+                     <hi>XIX.</hi> Ruptures and Broken-Bellies.</head>
+                  <p>This infirmity often happens to many, either by violent exerciſe, as hard riding, ſuddain lifting or overſtreaching of the body, or from indiſpoſitions, as ventroſities and extream cold, when the body is reduced to impotency by continued and weakning afflictions. Thoſe that are bowed down and labour under the deviding violenqu thereof, are moſt ſenſible of the miſery they endure. Would to God they might be ſenſible of his Mercies herein, that puts me, as experienced in the effectual curing hereof, to publiſh the ſame for the content and ſatisfaction of many. And pleaſe to be informed, that to avoid pro<g ref="char:EOLhyphen"/>lixity, we delight not in the tedious commendations either of theſe or any other Medicinal Preparations: yet I doubt not that thoſe who ſhall have occaſion to uſe them, may find the benefit thereof, in a far higher degree of Service, than I commend them.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Roborantes</cell>
+                           <cell>
+                              <hi>Strengthening Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Spirit. Adjuvans</cell>
+                           <cell>
+                              <hi>Helping Drops</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Unguent. Primum</cell>
+                           <cell>
+                              <hi>Firſt Oyntment</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Unguent. Socundum</cell>
+                           <cell>
+                              <hi>Second Oyntment</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Emplaſtrum Tertium.</cell>
+                           <cell>
+                              <hi>Third Plaiſter.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="20" type="part">
+                  <pb n="14" facs="tcp:171697:9"/>
+                  <head>
+                     <hi>XX.</hi> Fiſtula's and ſtubborn <g ref="char:V">Ʋ</g>lcers.</head>
+                  <p>Fiſtula's when once ſetled have always been difficult to remove, the humors which cauſe it being ſo corroding and fretting, that it forceth a current where Nature never intended it, and that often near the Eye, a place for its tenderneſs very remarkable, as well as in other parts of the body, for which we are ſtored with excellent Balm and Specifick Remedies appropriated to the ſeveral members, whereſoever they happen to fix themſelves, as</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Aqua Diaphoretica</cell>
+                           <cell>
+                              <hi>Sudorifick Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Ceruleae</cell>
+                           <cell>
+                              <hi>Blew Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Regales</cell>
+                           <cell>
+                              <hi>Royal Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Animale</cell>
+                           <cell>
+                              <hi>Animal Extract</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Vegetabile</cell>
+                           <cell>
+                              <hi>Vegetable Extract</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſtae</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="21" type="part">
+                  <head>
+                     <hi>XXI.</hi> Leproſie and Tetters.</head>
+                  <p>No doubt but thoſe who are troubled with this Evil, would be glad to be clear of it, for nature allows as little of deformity as pain: neither can theſe diſeaſes be ſaid to be without pain, for they are numbred among the Enemies of Life. However effectual Remedies are here preſcribed for the rooting of them out, as alſo for preſerving the inward parts from being hurt thereby, and conſequently from the danger that would enſue: for the Cure of theſe make uſe of</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Aqua Diaphoretica</cell>
+                           <cell>
+                              <hi>Sudorifick Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Ceruleae</cell>
+                           <cell>
+                              <hi>Blew Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Animale</cell>
+                           <cell>
+                              <hi>Animal Extract</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinctura Digeſtiva</cell>
+                           <cell>
+                              <hi>Digeſtive Tincture</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Unguent. Flavum.</cell>
+                           <cell>
+                              <hi>Yellow Oyntment.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="22" type="part">
+                  <head>
+                     <hi>XXII.</hi> Sore Breaſts and Cancers.</head>
+                  <p>The Breaſts and Paps are known to be very tender parts, and ſubject to many griefs, which ſome have found mortal, others given over as incurable, eſpecially in Cancers. To be ſilent in what God hath diſcovered to us herein, were to obſcure a Bleſſing many might deſire, and in a modeſt ſenſe have right to enjoy. Is there not a
+<pb n="15" facs="tcp:171697:9"/>Balm ordained for the afflictions of any part of the Body? Except we prove ungrateful to God and unjuſt to our ſelves, we cannot plead ignorance, as to the order and manner to the aforeſaid griefs, in any part of the Body, whilſt they are yet growing, for ſeveral have found the certainty of it to their comfort and our Satisfaction, the Medi<g ref="char:EOLhyphen"/>cines are</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extract. Animale</cell>
+                           <cell>
+                              <hi>Animal Extract</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Mercur. Diaphoreticus</cell>
+                           <cell>
+                              <hi>Mercury cauſing Sweat</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Elixir Cochleareae</cell>
+                           <cell>
+                              <hi>Elixir of Scurvy-graſs</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Ens Veneris</cell>
+                           <cell>
+                              <hi>Ens of Venus</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Oleum Butleri</cell>
+                           <cell>Butler<hi>'s Oyl</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Gallicae.</cell>
+                           <cell>
+                              <hi>Gallican Pills.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="23" type="part">
+                  <head>
+                     <hi>XXIII.</hi> Barrenneſs.</head>
+                  <p>Barrenneſs may not juſtly be attributed to Nature, for Nature was ordained to bear and bring forth, and therefore rarely nouriſheth any thing that oppoſeth her courſe herein: nevertheleſs accidents often prevail againſt Nature, whence obſtructions proceed, and unnatural conſequences do follow. But having by Gods permiſſion contem<g ref="char:EOLhyphen"/>plated the ſtate of things that are, I took Liberty to write of this Subject, ſeeing that many in a married ſtate, who might have ex<g ref="char:EOLhyphen"/>pected to bear Children, have proved Barren; and know this to be a certain Truth, that unnatural defects and obſtructions may by a Divine Bleſſing on <hi>Phyſical Means</hi> be effectually removed, and Na<g ref="char:EOLhyphen"/>ture reſtored to enjoy its decreed and ultimate end or honour. Whence know that our conſideration and ſtudies herein for Medicines, have plentifully furniſhed us to the certain content and ſatisfaction of many. Which follow:</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Elixir Cordiale</cell>
+                           <cell>
+                              <hi>Cordial Elixir</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinct. Corallorum</cell>
+                           <cell>
+                              <hi>Tincture of Coralls</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinct. Solis</cell>
+                           <cell>
+                              <hi>Tincture of Gold</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile.</cell>
+                           <cell>
+                              <hi>Potable Gold.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div n="24" type="part">
+                  <head>
+                     <hi>XXIV.</hi> Of Children and Rickets.</head>
+                  <p>The Tenderneſs of the Antients towards Children in the time of breeding their Teeth, extended to careful ſearch of ſuch means as might contribute to their Eaſe and Relief in the Extremity and Violence thereof, the Knowledge of which we Promote and Eſteem, having found profitable,</p>
+                  <pb n="16" facs="tcp:171697:10"/>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Manila</cell>
+                           <cell>
+                              <hi>Necklaces</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Tinct. Antimonii</cell>
+                           <cell>
+                              <hi>Tincture of Antimony</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aurum Potabile</cell>
+                           <cell>
+                              <hi>Potable Gold</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Extractum Catholicum</cell>
+                           <cell>
+                              <hi>
+                                 <g ref="char:V">Ʋ</g>niverſal Extract</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Remedium Principis.</cell>
+                           <cell>
+                              <hi>Princes Drops.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div type="part">
+                  <p>Beſides the fore-recited Maladies, there is one more which thoſe that are afflicted with, never deſire to poſſeſs one year, much leſs to Entail it on their Poſterity; the malignity whereof infects the Bones that flouriſh with Marrow, and the Breaſts that flow with Milk, fills the Body with Wounds, unnatural Sores and Putrefactions, but before it arrive to ſuch an exalted degree of danger, it is atten<g ref="char:EOLhyphen"/>ded with Syptoms of leſs Note, ſufficiently known not to be repeated here.</p>
+                  <p>The Cure whereof in that regular way as Nature requires, we moſt approve and eſteem of, which is carefully practiſed by us, whereby to rectifie the great indiſpoſition of the Body, and to recover the corrupted maſs of the blood to health, in order to which make uſe of</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>Aqua Diaphoretica</cell>
+                           <cell>
+                              <hi>Sudorifick Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Gallicae</cell>
+                           <cell>
+                              <hi>Gallican Pills</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Aq. Expulſiva</cell>
+                           <cell>
+                              <hi>Expulſive Water</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Pilulae Polychreſt.</cell>
+                           <cell>
+                              <hi>Pills of great <g ref="char:V">Ʋ</g>ſe</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>Merc. Diaphoreticus.</cell>
+                           <cell>
+                              <hi>Mercury cauſing ſweat.</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+               </div>
+               <div type="conclusion">
+                  <head>The Concluſion.</head>
+                  <p>Other Diſeaſes, Sickneſſes and Infirmities not mentioned here were omitted for Convenience ſake, and not of neglect, or for want of a due conſideration of the Cauſe and Cure thereof: but we would eſteem the Opinion of the Antients in this matter, whoſe Labour and Care was undoubtedly great, both to preſerve and recover health, as their large Volumes extant witneſs for them; as alſo to honour this Worthy, Princely and Antient if not Sacred Science, and would not ſo much as have the terms thereof proſtituted to every uncultivated mind, but with Gravity, commended and admired as the neceſſary means to enjoy Health, during the time of our Pilgri<g ref="char:EOLhyphen"/>mage, or ſojourning here: whereby, if the Divine Power permit, we may arrive to a full Age, which was in days paſt accounted a great Bleſſing.</p>
+               </div>
+            </div>
+            <epigraph>
+               <q>The Fear of the Lord prolongeth Life; for of the Moſt High cometh Healing.</q>
+            </epigraph>
+            <pb facs="tcp:171697:10"/>
+         </div>
+      </body>
+   </text>
+</TEI>
